@@ -1,0 +1,129 @@
+.rightBoxContainer {
+  color: #6d6e71;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 25.5px 25px 25px;
+  font-family: yekan6;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 50px;
+  position: relative;
+  cursor: pointer;
+  width: 90%;
+}
+#rightBoxTex {
+  margin: 0;
+  padding: 0;
+}
+.rightBoxContainer:hover {
+  color: #0054a6;
+  background-color: #fff;
+  box-shadow: 0 21px 60px 0 rgba(0, 84, 166, 0.1);
+  border-radius: 15px;
+}
+.rightBoxHandler {
+  border-left: 1.5px solid #d1d1d1;
+  position: relative;
+}
+.rightBoxHandler::before {
+  content: "";
+  position: absolute;
+  width: 1.2%;
+  height: 100%;
+  border-radius: 50px;
+  z-index: 999;
+  top: 0;
+  left: -2px;
+}
+
+.rightBoxHandler:hover.rightBoxHandler::before {
+  background-color: #0054a6;
+  border-radius: 500000000000000000px;
+  scale: 1.1;
+}
+
+.rightBoxContainer:nth-child(2):before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -46px;
+  z-index: 999;
+  width: 5px;
+  height: 80px;
+  border-radius: 100px;
+  background-color: #0054a6;
+  transition: 0.3s;
+}
+
+.rightBoxContainer img {
+  margin-left: 18px;
+  filter: grayscale(100%);
+}
+.rightBoxContainer:hover img {
+  filter: grayscale(0);
+}
+
+/* responsive */
+
+@media screen and (max-width: 855px) {
+  .rightBoxHandler {
+    border-left: none;
+    border-bottom: 1.5px solid #d1d1d1;
+    position: relative;
+    width: 100%;
+  }
+
+  #rightBoxTex {
+    display: none;
+  }
+  .rightBoxHandler {
+    display: flex;
+    justify-content: center;
+  }
+  .rightBoxContainer {
+    margin: 20px 0;
+    width: 50%;
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+  }
+  .rightBoxContainer img {
+    align-self: center;
+    width: 40px;
+    margin: 0 auto;
+  }
+  .rightBoxHandler::before {
+    content: "";
+    position: absolute;
+  
+    width: 92%;
+    height: 4%;
+    border-radius: 50px;
+    z-index: 999;
+    left: 6px;
+    top: 110px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+
+  .rightBoxContainer {
+padding: 15px 15px;
+    width: 100%;
+  }
+  .rightBoxHandler::before {
+    
+    top: 95px;
+  }
+}
+@media screen and (max-width: 384px) {
+
+ 
+  .rightBoxContainer img {
+    align-self: center;
+    width: 35px;
+    margin: 0 auto;
+  }
+}

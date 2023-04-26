@@ -1,0 +1,345 @@
+.appContainer {
+  width: 100%;
+  height: 550px;
+  background-color: #ebecf0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.appRightContainer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+#responsiveAppImg {
+  display: none;
+}
+.appLeftContainer {
+  width: 50%;
+  height: 100%;
+}
+.appLeftSizeHandler {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.firstAppText {
+  display: flex;
+  justify-content: end;
+  width: 90%;
+  margin: 20px auto;
+  margin-top: 50px;
+  padding: 0 10px;
+}
+.TopLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+.TopLeft p {
+  margin: 0;
+  margin-right: 30px;
+}
+.TopLeft p:first-child {
+  color: #6d6e71;
+  font-family: yekan7;
+  font-size: 40px !important;
+}
+.TopLeft p:last-child {
+  color: #f59220;
+  font-size: 27px !important;
+}
+.TopRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TopLeft p:first-child {
+  font-size: 30px;
+}
+.TopLeft p:last-child {
+  font-size: 20px;
+}
+
+.secondAppText {
+  width: 90%;
+  margin: 30px auto;
+  font-size: 18px;
+  direction: rtl;
+  color: #6d6e71;
+  padding: 0 30px;
+}
+.secondAppText p {
+  width: 90%;
+  font-family: yekan4;
+  padding: 0 5px;
+}
+.thirdAppText {
+  width: 100%;
+  height: 35%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.social {
+  width: 36%;
+  cursor: pointer;
+
+  border-radius: 35px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-self: center;
+  background-color: #0054a6;
+  color: #fff;
+  align-self: center;
+  padding: 15px 0;
+}
+.social:last-child {
+  background-color: #e1e8ef;
+  color: #b2c4d5;
+}
+.social p {
+  align-self: center;
+  margin: 0;
+  font-size: 20px;
+  font-family: yekan7;
+}
+
+.social img {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+
+/* left part */
+.imageApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.imageApp img {
+  width: 80%;
+  height: 70%;
+  align-self: center;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.apptestApp {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  background-color: red;
+  align-self: center;
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 1000px) {
+  .social {
+    margin: 10px 30px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .TopLeft p:first-child {
+    font-size: 35px !important;
+  }
+  .social p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .appContainer {
+    height: 460px;
+  }
+  .appLeftSizeHandler {
+    align-items: flex-end;
+  }
+  .TopLeft p:first-child {
+    font-size: 25px !important;
+  }
+  .TopLeft p:last-child {
+    font-size: 18px !important;
+  }
+  .imageApp img {
+    height: 250px;
+  }
+  .secondAppText {
+    width: 90%;
+    margin: 0;
+    font-size: 16px;
+    direction: rtl;
+    color: #6d6e71;
+    padding: 0 30px;
+  }
+  .secondAppText p{
+
+    padding: 0;
+  }
+  .thirdAppText {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    max-width: 360px;
+    margin-right: 20px;
+  }
+  .social {
+    border-radius: 50%;
+    width: 60px !important;
+    height: 60px;
+    padding: 0;
+    align-items: flex-end;
+    margin: 0 !important;
+  }
+
+  .social img {
+    width: 20px;
+    height: 20px;
+    margin: 0 !important;
+  }
+
+  .social p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .imageApp img {
+    width: 90%;
+    align-self: center;
+    border-radius: 20px;
+    margin: auto;
+  }
+
+  .appRightContainer {
+    display: none;
+  }
+  .appLeftContainer {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .firstAppText {
+    width: 60%;
+    padding: 0;
+
+    justify-content: center;
+  }
+  #responsiveAppImg {
+    display: flex;
+    width: 80%;
+    height: 65%;
+    border-radius: 20px;
+  }
+  .appContainer {
+    height: 750px;
+  }
+  .secondAppText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 86%;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 18px;
+    flex-direction: column;
+  }
+
+  .secondAppText p {
+    display: flex;
+    justify-content: center;
+    width: 77%;
+    margin: 30px 0;
+  }
+
+  .thirdAppText {
+    justify-content: space-around !important;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0;
+  }
+ 
+}
+
+@media screen and (max-width: 578px) {
+  
+  .TopLeft p:first-child {
+    font-size: 18px !important;
+  }
+  .TopLeft p:last-child {
+    font-size: 14px !important;
+  }
+  #responsiveAppImg {
+    width: 100%;
+  }
+  .secondAppText :nth-child(2) {
+    width: 100%;
+  }
+  .thirdAppText {
+    justify-content: center;
+  }
+  .firstAppText {
+    width: 83%;
+    justify-content: flex-end;
+  }
+  .TopRight img {
+    width: 90px;
+  }
+  .social {
+    margin-right: 20px;
+  }
+  .secondAppText {
+    font-size: 14px;
+  }
+  .secondAppText p {
+    width: 77%;
+  }
+}
+@media screen and (max-width: 384px) {
+  .appContainer {
+    height: 600px;
+  }
+  .TopLeft p:first-child {
+    font-size: 17px !important;
+  }
+
+  .firstAppText {
+    padding-top: 20px;
+    width: 75%;
+    margin: 10px auto;
+  }
+  .thirdAppText {
+    width: 86%;
+  }
+  .secondAppText {
+    width: 80%;
+  }
+  .secondAppText img {
+    width: 100%;
+  }
+  .social {
+    width: 50px !important;
+    height: 50px;
+    margin: 5px 7px;
+  }
+  .social img {
+    width: 20px;
+    height: 20px;
+  }
+  .TopRight img {
+    width: 60px;
+  }
+ 
+}

@@ -1,0 +1,26 @@
+<svg id="Pakan_Logo_TYPES-05" data-name="Pakan Logo_TYPES-05" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97.881" height="97.904" viewBox="0 0 97.881 97.904">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        fill: url(#radial-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.499" gradientTransform="translate(0 -0.001)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffcb05"/>
+      <stop offset="0.483" stop-color="#faa21b"/>
+      <stop offset="0.595" stop-color="#f99e1c"/>
+      <stop offset="1" stop-color="#f7941e"/>
+    </radialGradient>
+  </defs>
+  <path id="Path_951" data-name="Path 951" class="cls-1" d="M97.9,87.072A10.665,10.665,0,0,1,87.269,97.707H10.658A10.665,10.665,0,0,1,.023,87.072V10.438A10.665,10.665,0,0,1,10.658-.2H87.269A10.665,10.665,0,0,1,97.9,10.438Z" transform="translate(-0.023 0.197)"/>
+  <g id="Group_858" data-name="Group 858" transform="translate(9.064 16.137)">
+    <path id="Path_952" data-name="Path 952" class="cls-2" d="M129.123,104.922a21.208,21.208,0,0,0-29.907-.084c-.028.025-.055.051-.078.074l-3.672,3.672-3.672-3.671a2.238,2.238,0,0,0-.21-.188,21.209,21.209,0,0,0-29.881,30.1c.027.028.055.059.084.087l31.873,31.873a2.539,2.539,0,0,0,3.592,0l31.876-31.875c.031-.031.061-.061.073-.076a21.211,21.211,0,0,0-.078-29.916Zm-26.465,3.652c.024-.022.047-.045.07-.068a16.113,16.113,0,0,1,20.935-1.587L108.73,121.851l-9.674-9.675ZM80.4,127.235a2.54,2.54,0,0,0,3.591,0l11.47-11.47,11.471,11.472a2.538,2.538,0,0,0,3.59,0l16.71-16.71a16.118,16.118,0,0,1-1.694,20.789.725.725,0,0,0-.06.064L95.457,161.4l-30-29.994c-.027-.031-.056-.059-.081-.086a16.138,16.138,0,0,1-1.7-20.811Zm1.8-5.387L67.253,106.9a16.138,16.138,0,0,1,20.938,1.608,2.332,2.332,0,0,0,.2.178l3.485,3.485Z" transform="translate(-55.579 -98.71)"/>
+    <path id="Path_953" data-name="Path 953" class="cls-2" d="M282.97,286.273a3.344,3.344,0,1,0-3.345-3.343A3.348,3.348,0,0,0,282.97,286.273Z" transform="translate(-243.071 -250.075)"/>
+    <path id="Path_954" data-name="Path 954" class="cls-2" d="M282.97,371.694a3.345,3.345,0,1,0-3.345-3.345A3.349,3.349,0,0,0,282.97,371.694Z" transform="translate(-243.071 -321.558)"/>
+  </g>
+</svg>

@@ -1,0 +1,279 @@
+/* top navbar */
+
+.topNavbar {
+  width: 100%;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.826);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row-reverse;
+  position: relative;
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  z-index: 99999999999999999;
+
+}
+
+.topNavbar img {
+  width: 15px;
+  align-self: center;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.topNavbar::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #70707029;
+
+  position: absolute;
+  bottom: 0;
+}
+
+.topNavbar p {
+  color: #939598;
+  font-size: 12px;
+  align-self: center;
+  position: relative;
+  font-size: 15px;
+  cursor: pointer;
+}
+.daysNav {
+  position: relative;
+}
+.daysNav::before {
+  content: "";
+  position: absolute;
+  width: 1.5px;
+  height: 30px;
+  background-color: #70707029;
+  bottom: 10px;
+  right: -25px;
+}
+.daysNav p::after {
+  content: "";
+  position: absolute;
+  width: 1.5px;
+  height: 15px;
+  background-color: #70707029;
+  left: -20px;
+  top: 3px;
+}
+.fridayNav {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 40px;
+  position: relative;
+}
+.fridayNav::after {
+  content: "";
+  position: absolute;
+  width: 1.5px;
+  height: 30px;
+  background-color: #70707029;
+  bottom: 13px;
+  left: -25px;
+}
+.phoneNumNav {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 70px;
+}
+
+/* bottom navbar */
+
+.bottomNavbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.826);
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  backdrop-filter: blur(11px);
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  font-weight: 100;
+  -webkit-backdrop-filter: blur(11px);
+  z-index: 99999999999999999;
+  
+position: sticky;
+}
+.leftBNav {
+  display: flex;
+  flex-direction: row-reverse;
+  align-self: center;
+  font-weight: bold;
+}
+
+.leftBNav p {
+  color: #6d6e71;
+  cursor: pointer;
+  font-family: yekan7;
+ 
+
+}
+.logedIn {
+  margin-left: 70px;
+}
+
+.leftBNav p:first-child {
+  color: #f7941e;
+  font-size: 16px;
+  padding: 5px 25px;
+}
+.leftBNav p:last-child {
+  background-color: #f7941e;
+  font-size: 16px;
+  color: #fff;
+  padding: 5px 25px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.rightBNav {
+  display: flex;
+  margin-right: 70px;
+}
+
+.rightBNav p {
+  margin: 0 21px;
+  align-self: center;
+  color: #6d6e71;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: yekan6;
+
+}
+
+.rightBNav img {
+  width: 45px;
+  height: 45px;
+  align-self: center;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.rightNavMobile {
+  display: none;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1200px) {
+  .phoneNumNav {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 40px;
+  }
+
+  .rightBNav {
+    display: flex;
+    margin-right: 40px;
+  }
+  .rightBNav p {
+    margin: 0 16px;
+    align-self: center;
+    color: #6d6e71;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .logedIn {
+    margin-left: 40px;
+  }
+  .leftBNav p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .rightBNav p {
+    margin: 0 9px;
+    align-self: center;
+    color: #6d6e71;
+    cursor: pointer;
+  }
+
+  .leftBNav p:last-child {
+    font-size: 16px;
+  }
+
+  .leftBNav p:first-child {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rightBNav {
+    display: none;
+  }
+
+  .rightNavMobile {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .rightNavMobile img {
+    width: 45px;
+    height: 45px;
+    align-self: center;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+  .hamburger {
+    width: 30px !important;
+    height: 20px !important;
+    margin-right: 20px !important;
+  }
+
+  /* topnavbar */
+
+  .topNavbar p {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .daysNav {
+    margin-right: 20px;
+  }
+  .phoneNumNav {
+    margin-left: 20px;
+  }
+  .topNavbar {
+    justify-content: space-between;
+  }
+  .topNavbar p {
+    font-size: 8px;
+  }
+  .fridayNav::after {
+    bottom: 3px;
+  }
+  .daysNav p::after {
+    top: 0;
+  }
+  .daysNav::before {
+    display: none;
+  }
+  .rightNavMobile img {
+    margin-right: 20px;
+  }
+  .phoneNumNav {
+  }
+  .leftBNav p:last-child {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .topNavbar {
+    justify-content: space-between;
+  }
+
+  .topNavbar p {
+    font-size: 8px;
+  }
+  .fridayNav::after {
+    bottom: -1px;
+  }
+}

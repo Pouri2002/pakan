@@ -1,0 +1,115 @@
+.topEtemadContainer {
+  width: 100%;
+  height:400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textTop {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textTop p:first-child {
+  font-size: 30px;
+  color: #6d6d6d;
+  margin: 0;
+  font-weight: bold;
+}
+.textTop p:last-child {
+  font-size: 16px;
+  color: #f59220;
+  margin: 0;
+}
+
+.bottomPart {
+  width: 80%;
+  height: 60%;
+  background-color: rgb(255, 255, 255);
+  direction: rtl;
+}
+
+.imgContainer {
+  direction: rtl;
+
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.imgContainer img {
+  width: 16%;
+  align-self: center;
+}
+
+/* responsive */
+
+@media screen and (max-width: 992px) {
+  .textTop p:first-child {
+    font-size: 25px;
+  }
+  .textTop p:last-child {
+    font-size: 16px;
+  }
+  .bottomPart {
+    display: flex;
+    justify-content: start;
+    direction: rtl;
+  }
+  .imgContainer {
+    direction: rtl;
+    justify-content: start !important;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    overflow: auto;
+    padding-bottom: 20px;
+  }
+  .imgContainer img {
+    direction: rtl;
+    width: 100px;
+    margin: 0 10px;
+    align-self: center;
+  }
+
+  /* ********** scroolBar  *********** */
+
+  .imgContainer::-webkit-scrollbar {
+    background-color: #9d9da0;
+    height: 6px;
+  }
+
+  .imgContainer::-webkit-scrollbar-thumb {
+    background-color: #f59220;
+    height: 5px;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .imgContainer {
+    overflow-x: auto;
+  }
+  .imgContainer::-webkit-scrollbar {
+    background-color: #9d9da0;
+    height: 6px;
+    display: none;
+  }
+  .imgContainer::-webkit-scrollbar {
+    background-color: #9d9da0;
+    height: 6px;
+    display: none;
+  }
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24.055" viewBox="0 0 24 24.055">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#0054a6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Menu_Ham_B" transform="translate(1 1)">
+        <path id="Line_356" d="M0 0L22 0" class="cls-1"/>
+        <path id="Line_357" d="M0 0L22 0" class="cls-1" transform="translate(0 11.028)"/>
+        <path id="Line_358" d="M0 0L22 0" class="cls-1" transform="translate(0 22.055)"/>
+    </g>
+</svg>

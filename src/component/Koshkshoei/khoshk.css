@@ -1,0 +1,206 @@
+.khoshkContainer {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  background-color: #e0e0e0;
+  background-size: cover;
+  background-position: center;
+  z-index: 9999;
+  margin-top: 100px;
+}
+.khoshkBgHandler {
+  width: 100%;
+  height: 110vh;
+  z-index: -1;
+
+  background-color: #d6d6d6;
+
+  position: absolute;
+}
+
+.textTopKhoshk {
+  width: 80%;
+  height: 30%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.textTopKhoshk p:first-child {
+  font-size: 30px;
+  margin: 0;
+  color: #6d6d6d;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.textTopKhoshk p:last-child {
+  margin: 0;
+  color: #f59220;
+  font-size: 20px;
+}
+
+.khoshkBoxContainer {
+  width: 75%;
+  height: 50%;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 20px;
+  display: flex;
+  padding: 20px;
+}
+.leftKhoshk {
+  padding: 20px;
+  text-align: right;
+  height: 90%;
+}
+
+.leftKhoshk p:first-child {
+  font-size: 18px;
+  font-weight: bold;
+  color: #6d6d6d;
+}
+.boxtextkhoshk {
+  font-size: 16px;
+  color: #9b9898;
+  padding-left: 30px;
+}
+.khoshkMedia {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  color: #6d6d6dbd;
+}
+.khoshkShoeeivonBox {
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+.khoshkShoeeivonBox > * {
+  margin-right: 10px;
+}
+
+.khoshkMedia img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  align-self: center;
+  margin-right: 10px;
+}
+
+.khoshkMedia > p {
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  align-self: center !important;
+}
+.khoshkShoeeivonBox > * {
+  scale: 1.4;
+  margin-left: 10px;
+}
+
+.rightKhoshk {
+  padding: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .khoshkMedia {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .khoshkBoxContainer {
+    flex-direction: column-reverse;
+    height: 60%;
+  }
+
+  .khoshkContainer {
+    height: 1000px;
+  }
+  .leftKhoshk {
+    width: 80%;
+
+    margin: 0 auto;
+    width: 80%;
+  }
+  .rightKhoshk {
+    width: 80%;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .rightKhoshk::before {
+    content: "لورم ایپسوم متن ساختگی ";
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    text-align: right;
+    font-family: yekan6;
+    color: #6d6d6d;
+
+    font-size: 24px;
+  }
+  .rightKhoshk img {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+  }
+
+  .textTopKhoshk {
+    height: 17%;
+  }
+  .leftKhoshk > p:first-child {
+    display: none;
+  }
+  .boxtextkhoshk {
+    padding: 0;
+    width: 100%;
+    margin: auto;
+  }
+  .khoshkMedia {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .khoshkMedia {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 576px) {
+  .khoshkBoxContainer {
+    height: 50%;
+  }
+  .rightKhoshk img {
+    height: 170px;
+  }
+  .rightKhoshk::before {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .khoshkBoxContainer {
+    height: 55%;
+  }
+}
+@media screen and (max-width: 384px) {
+  .khoshkBoxContainer {
+    height: 60%;
+  }
+
+  .rightKhoshk::before {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,189 @@
+.whyContainer {
+  background-image: url(../../../public/img/whyBackground.png);
+  background-position: center;
+  background-color: #f9f9f9;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  margin-top: 100px;
+}
+.whyTopText {
+  padding-top: 150px;
+  margin: 0 auto;
+  text-align: center;
+}
+.whyTopText p {
+  margin: 0;
+}
+
+.whyTopText p:first-child {
+  color: #6d6e71;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.whyTopText p:last-child {
+  color: #f59220;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.whyBibContainer {
+  width: 70%;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.bigRight {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.bigRight p {
+  text-align: center;
+  align-self: center;
+  width: 100%;
+  border-radius: 15px;
+  color: #87888c;
+}
+
+.bigLeft {
+  height: 100%;
+  text-align: right;
+  padding:0 10px;
+  margin-top: 40px;
+  line-height: 1.7;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+}
+
+.bigLeft p:nth-child(1) {
+  color: #6d6e71;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.bigLeft p:nth-child(2) {
+  color: #6d6e71;
+  font-size: 14px;
+  margin-top: 5px;
+  line-height: 1.8;
+  width: 90%;
+}
+.bigLeft p:nth-child(3) {
+  color: #6d6e71;
+  font-size: 14px;
+  margin-top: 20px;
+  line-height: 1.8;
+  width: 90%;
+
+
+}
+
+/* responsve  */
+
+@media screen and (max-width: 1366px) {
+
+
+
+}
+@media screen and (max-width: 992px) {
+
+  .bigLeft p:nth-child(2) {
+    
+    width: 120%;
+    font-size: 14px;
+    margin: 0;
+  }
+  .bigLeft p:nth-child(3) {
+    
+    width: 120%;
+    margin: 0;
+  
+  
+  }
+  
+  
+}
+@media screen and (max-width: 855px) {
+
+  .whyBibContainer {
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+  }
+  .bigRight {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 120px;
+    margin-left: 0px;
+  }
+  .bigLeft{
+    width: 100%;
+    margin:  40px auto;
+    padding: 0;
+  }
+  .bigLeft p:nth-child(2) {
+    
+    width: 100%;
+    font-size: 14px;
+    margin: 0;
+  }
+  .bigLeft p:nth-child(3) {
+    
+    width: 100%;
+    margin: 15px 0;
+  
+  
+  }
+
+}
+@media screen and (max-width: 384px){
+  .whyBibContainer {
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .bigLeft{
+
+    width: 90%;
+  }
+  .bigRight{
+    width: 100%;
+  }
+
+  .bigLeft p:nth-child(1) {
+    
+   font-size: 15px;
+   
+  }
+  .bigLeft p:nth-child(2) {
+    
+    width: 100%;
+    font-size: 12px;
+   
+  }
+  .bigLeft p:nth-child(3) {
+    
+  font-size: 12px;
+  
+  
+  }
+}
+

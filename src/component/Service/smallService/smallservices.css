@@ -1,0 +1,31 @@
+.smallContainer {
+  width: 34%;
+  text-align: right;
+  font-size: 14px;
+  margin: 0 auto;
+  color: #6d6e71;
+  margin-bottom: 20px;
+}
+.smallContainer p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.smallContainer:nth-child(5) {
+  color: #0054a6;
+}
+
+.smallContainer img {
+  width: 70px;
+  height: 63px;
+}
+
+@media screen and (max-width: 992px) {
+  .smallContainer {
+    width: 150px;
+    margin: 30px 20px 0 20px;
+  }
+.smallContainer img {
+
+  width: 90px;
+}
+}

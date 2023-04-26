@@ -1,0 +1,78 @@
+.headerContainer {
+  width: 100%;
+  height: 700px;
+  background: url(../../../public/img/headerCover.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.headerTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  margin-right: 70px;
+  margin-top: 120px;
+}
+
+.headerTextContainer p:first-child {
+  font-size: 48px;
+  line-height: 0.38;
+  text-align: right;
+  color: #0054a6;
+  font-family: yekan8;
+}
+
+.headerTextContainer p:last-child {
+  color: #0053a69f;
+  font-size: 42px;
+  line-height: 0.38;
+  text-align: right;
+  font-family: yekan4;
+  margin-top: 0;
+}
+@media screen and (max-width: 1200px) {
+
+.headerContainer {
+
+  height: 600px;
+}
+
+}
+
+@media screen and (max-width: 992px) {
+  .headerTextContainer p:first-child {
+    font-size: 35px;
+  }
+  .headerTextContainer p:last-child {
+    font-size: 30px;
+  }
+
+
+}
+@media screen and (max-width: 768px) {
+  .headerContainer{
+
+    height: 550px;
+  }
+  .headerTextContainer p:first-child {
+    font-size: 30px;
+  }
+  .headerTextContainer p:last-child {
+    font-size: 25px;
+  }
+
+
+}
+@media screen and (max-width: 500px) {
+  .headerTextContainer p:first-child {
+    font-size: 25px;
+  }
+  .headerTextContainer p:last-child {
+    font-size: 20px;
+    font-family: yekan4;
+  }
+
+
+}
+

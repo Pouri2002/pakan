@@ -1,0 +1,288 @@
+.mahdoodeContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  max-width: 80%;
+  height: 150px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 60px 0 rgba(0, 84, 166, 0.13);
+  font-size: 14px;
+  background-color: #fff;
+  position: relative;
+}
+.mahdoodeBox {
+  position: absolute;
+  bottom: -85px;
+  right: 0;
+  left: 0;
+}
+.mahdoodeMap {
+  display: flex;
+  flex-direction: row-reverse;
+  align-self: center;
+  width: 30%;
+  margin-right: 20px;
+}
+.mahdoodeMap p {
+  text-align: right;
+  font-family: yekan5;
+  font-size: 20px;
+  margin: 0 10px;
+  position: relative;
+  color: #4f4f4f9f;
+}
+.mahdoodeMap p::before {
+  content: "محله سعادت آباد - ویرایش";
+}
+
+.mahdoodeMap p::after {
+  content: "";
+  background-color: #5454549f;
+  width: 180%;
+  position: absolute;
+  height: 2px;
+  bottom: -5px;
+  right: 0;
+}
+.mahdoodeMap > * {
+  align-self: center;
+  color: #8283849f;
+  height: 30px;
+}
+
+.mahdoodeMap svg {
+  width: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.mahdoodeLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circleContainer {
+  width: 20%;
+  align-self: center;
+}
+.mahdoodeCircle {
+  width: 65px;
+  height: 65px;
+  border: 2px solid #0054a6;
+  border-radius: 50%;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.secondCircle {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #0054a6;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.thirdCircle {
+  width: 10px;
+  height: 10px;
+  background-color: #0054a6;
+  border-radius: 50%;
+  align-self: center;
+  margin: auto;
+}
+
+.mahdoodeButton {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 45%;
+}
+.mahdoodeButton p {
+  align-self: center;
+  font-size: 22px;
+  font-family: yekan7;
+  color: #fff;
+  background-color: #0054a6;
+  border-radius: 35px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0px 4px 9px 3px rgba(0, 83, 166, 0.334);
+  padding: 20px 70px;
+  margin: 0 10px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1200px) {
+  .mahdoodeBox {
+    position: absolute;
+    top: 500px;
+    right: 0;
+    left: 0;
+  }
+  .mahdoodeMap p {
+    font-size: 19px;
+  }
+  .mahdoodeMap p::after {
+    width: 130%;
+  }
+  .mahdoodeButton p {
+    font-size: 20px;
+    padding: 20px 0px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mahdoodeContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .mahdoodeBox {
+    position: absolute;
+    top: 620px;
+    right: 0;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .mahdoodeMap p {
+    font-size: 14px;
+  }
+  .mahdoodeMap p::after {
+    width: 130%;
+  }
+  .mahdoodeButton p {
+    font-size: 15px;
+    padding: 20px 10px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mahdoodeBox {
+    position: absolute;
+    top: 470px;
+    right: 0;
+    left: 0;
+  }
+  .mahdoodeContainer {
+    width: 55%;
+    flex-wrap: wrap;
+  }
+  .mahdoodeMap {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+  }
+  .mahdoodeMap p {
+    font-size: 18px;
+    margin-left: 0;
+  }
+  .mahdoodeMap p::after {
+    width: 130%;
+  }
+  .circleContainer {
+    display: flex;
+    justify-content: end;
+    width: 22%;
+  }
+
+  .mahdoodeCircle {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #0054a6;
+    border-radius: 50%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .secondCircle {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #0054a6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .thirdCircle {
+    width: 5px;
+    height: 5px;
+    background-color: #0054a6;
+    border-radius: 50%;
+    align-self: center;
+    margin: auto;
+  }
+
+  .mahdoodeButton {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  .mahdoodeButton p {
+    padding: 12px 10px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .mahdoodeMap p::before {
+    content: " محدوده ی ما";
+  }
+
+  .mahdoodeButton {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .mahdoodeContainer {
+    width: 65%;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .mahdoodeButton p {
+    margin: 0;
+  }
+  .mahdoodeMap p::before {
+    font-size: 14px;
+  }
+
+  .mahdoodeMap {
+    width: 65%;
+    margin: 0;
+  }
+  .circleContainer {
+    display: flex;
+    justify-content: start;
+    align-self: center;
+  }
+  .mahdoodeCircle {
+    margin: 0;
+  }
+  .mahdoodeButton p {
+    margin: 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 384px) {
+  .mahdoodeContainer{
+
+    justify-content: space-evenly;
+  }
+  .mahdoodeButton p {
+    font-size: 12px;
+  }
+}

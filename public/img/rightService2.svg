@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="99.121" height="65.176" viewBox="0 0 99.121 65.176">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #b3b3b5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Urgent_G" transform="translate(1.002 1.004)">
+    <line id="Line_539" data-name="Line 539" class="cls-1" x2="9.147" transform="translate(59.049 4.641)"/>
+    <line id="Line_540" data-name="Line 540" class="cls-1" x2="20.217" transform="translate(59.842 12.098)"/>
+    <line id="Line_541" data-name="Line 541" class="cls-1" x2="34.117" transform="translate(63.002 25.689)"/>
+    <line id="Line_542" data-name="Line 542" class="cls-1" x2="19.31" transform="translate(77.809 63.171)"/>
+    <path id="Path_861" data-name="Path 861" class="cls-1" d="M20.03,18.281a8.724,8.724,0,0,1,9.158-8.539,8.709,8.709,0,0,1,7.827,9.764,8.812,8.812,0,0,1-8.441,7.318v6.728" transform="translate(15.644 -9.714)"/>
+    <path id="Path_862" data-name="Path 862" class="cls-1" d="M48.072,20.907s29.95,13.179,37.942,17.038c3.1,1.495,5.527,2.733,6.228,6.226a8.675,8.675,0,0,1,0,1.313,6.227,6.227,0,0,1-6.228,6.226H10.152a6.227,6.227,0,0,1-6.228-6.226,8.387,8.387,0,0,1,0-1.313c.7-3.493,3.131-4.731,6.228-6.226,7.993-3.858,37.94-17.038,37.94-17.038h-.02Z" transform="translate(-3.895 3.84)"/>
+  </g>
+</svg>

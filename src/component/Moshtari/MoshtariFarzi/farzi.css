@@ -1,0 +1,91 @@
+.farziContainer {
+  width: 32%;
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  text-align: right;
+  font-size: 15px;
+  margin: 30px 50px;
+  margin-right: 100px;
+
+}
+
+
+.leftFarzi {
+  padding: 5px 70px 10px 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px 0 rgba(0, 84, 166, 0.1);
+  color: #6d6e6d;
+}
+
+.imgFarzi {
+  align-self: center;
+  position: relative;
+}
+.leftFarzi p:first-child {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+.leftFarzi p:last-child {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 100;
+}
+.imgFarzi img {
+  width: 100px;
+  margin: auto;
+  align-self: center;
+  position: absolute;
+  right: -50px;
+  bottom: -50px;
+}
+
+.imgLeft img {
+  width: 15px;
+  margin-left: 7px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 992px) {
+  .leftFarzi p:last-child {
+    font-size: 10px;
+  }
+
+  .farziContainer {
+    
+    margin: 30px 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .farziContainer {
+    width: 350px;
+    height: 170px;
+    align-self: center;
+  }
+
+  .leftFarzi {
+    width: 250px;
+    font-size: 20px !important;
+
+  }
+  
+
+}
+
+@media screen and (max-width: 576px) {
+  .leftFarzi {
+    width: 200px;
+    font-size: 20px !important;
+  }
+  .farziContainer {
+
+    width: 300px;
+    scale: 0.9;
+  }
+
+
+}

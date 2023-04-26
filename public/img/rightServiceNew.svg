@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66.199" height="71" viewBox="0 0 66.199 71">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #b3b3b5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Sewing_B" transform="translate(1)">
+    <path id="Path_760" data-name="Path 760" class="cls-1" d="M20.838,10.96V6.339h10.24v4.905" transform="translate(3.45 2.077)"/>
+    <path id="Path_761" data-name="Path 761" class="cls-1" d="M40.984,20.459l-1.16-8.779A2.479,2.479,0,0,0,37.345,9.2H23.1a2.479,2.479,0,0,0-2.478,2.478L14.9,57.6a2.479,2.479,0,0,0,2.478,2.478H43.119A2.479,2.479,0,0,0,45.6,57.6L41.643,26.018" transform="translate(-0.829 4.141)"/>
+    <path id="Path_762" data-name="Path 762" class="cls-1" d="M31.078,39.793V43.8H20.838V39.793" transform="translate(3.45 26.2)"/>
+    <path id="Path_763" data-name="Path 763" class="cls-1" d="M55.92,17.988a2.85,2.85,0,1,0-3.2-4.716C50.428,14.938,6.726,50.2,6.726,50.2S54.725,18.712,55.92,17.988Z" transform="translate(-6.726 6.708)"/>
+    <path id="Path_764" data-name="Path 764" class="cls-1" d="M23.717,1.449" transform="translate(5.526 -1.449)"/>
+    <path id="Path_765" data-name="Path 765" class="cls-1" d="M37.306,14.05a10,10,0,0,1,6.115,1.158c6.21,3.323,9.917,11.774-2.258,18.065-13.034,6.735-5.852,23.014,9.543,17.679" transform="translate(13.22 7.576)"/>
+  </g>
+</svg>

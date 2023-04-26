@@ -1,0 +1,43 @@
+@font-face {
+  font-family: yekan;
+  src: url(../public/font/yekan\ bakh\ en\ 01\ hairline.ttf);
+}
+@font-face {
+  font-family: yekan2;
+  src: url(../public/font/yekan\ bakh\ en\ 02\ thin.ttf);
+}
+
+@font-face {
+  font-family: yekan3;
+  src: url(../public/font/yekan\ bakh\ en\ 03\ light.ttf);
+}
+
+@font-face {
+  font-family: yekan4;
+  src: url(../public/font/yekan\ bakh\ en\ 04\ regular.ttf);
+}
+@font-face {
+  font-family: yekan5;
+  src: url(../public/font/yekan\ bakh\ en\ 05\ medium.ttf);
+}
+
+@font-face {
+  font-family: yekan6;
+  src: url(../public/font/yekan\ bakh\ en\ 06\ bold.ttf);
+}
+
+@font-face {
+  font-family: yekan7;
+  src: url(../public/font/yekan\ bakh\ en\ 07\ heavy.ttf);
+}
+
+@font-face {
+  font-family: yekan8;
+  src: url(../public/font/yekan\ bakh\ en\ 08\ fat.ttf);
+}
+
+body {
+  font-family: yekan5;
+  max-width: 1349px;
+  margin: 0 auto;
+}

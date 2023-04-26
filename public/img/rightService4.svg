@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70.163" height="71.974" viewBox="0 0 70.163 71.974">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #b3b3b5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #939598;
+      }
+    </style>
+  </defs>
+  <g id="Colouring_G" transform="translate(1 1.027)">
+    <path id="Path_223" data-name="Path 223" class="cls-1" d="M14.26,44.75l6.889-8.3S24.572,31.9,29.2,35.5c.073.058,1.673,1.393,1.752,1.449,3.868,2.735,5.713-1.491,7.7-4.655S52.3,13.267,62.06,7.541c0,0,3.537-2.35,4.671-1.408s-.524,4.849-.524,4.849c-3.833,10.641-18.1,24.357-20.841,26.891s-6.974,5.088-3.158,8.423c.128.112,1.785,1.487,1.9,1.6,4.147,3.841.395,7.941.395,7.941l-6.889,8.3Z" transform="translate(0.998 -5.91)"/>
+    <path id="Path_224" data-name="Path 224" class="cls-1" d="M22.615,26.466S12.935,37.649,6.371,39.279L27.307,56.657c6.564-1.632,16.244-12.813,16.244-12.813" transform="translate(-6.371 13.291)"/>
+    <path id="Path_225" data-name="Path 225" class="cls-2" d="M28.418,50.072l10.3-7.643-30.4-9.452H6.757Z" transform="translate(-6.01 19.372)"/>
+  </g>
+</svg>
